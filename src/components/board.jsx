@@ -4,7 +4,9 @@ const Board = ({ puzzle }) => {
   let cellEls = [];
   puzzle.forEach((row) => {
     row.forEach((number) => {
-      cellEls.push(<Cell number={number} />);
+      let displayValue = number;
+      if (number === ".") displayValue = "";
+      cellEls.push(<Cell number={displayValue} />);
     });
   });
 
