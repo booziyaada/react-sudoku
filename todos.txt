@@ -2,3 +2,4 @@ read about different types of import statements
 anonymous functions in JS
 pass by value & pass by reference in JS
 diff between ESM & CommonJS export
+what happens in case of nested git repos
